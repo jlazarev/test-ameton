@@ -1,0 +1,39 @@
+// Colors
+//---------------------------------
+// https://www.htmlcsscolor.com/hex/334482
+
+// Default
+
+$color-default-black:             #1a1a1a;
+$color-default-white:             #ffffff;
+$color-transparent:               rgba(255, 255, 255, 0);
+
+// Base
+
+$color-blue:                      #004685;
+$color-blue-light:                #93bbea;
+$color-grey:                      #f9f9f9;
+$color-grey-2:                    #949494;
+$color-green:                     #36ba5f;
+
+// Typography
+//---------------------------------
+
+$font-family--open-sans:         "Museo Sans Cyrl", "Verdana", sans-serif;
+
+// Animation
+//---------------------------------
+
+$default-transition-settings:       0.3s ease;
+$modal-transition-settings:         0.6s cubic-bezier(0.55, 0, 0.1, 1);
+
+// Viewports
+//---------------------------------
+
+$viewport--800:                      800px;
+
+// Retina
+//---------------------------------
+
+$retina-dpi:                        144dpi;
+$retina-dppx:                       1.5dppx;

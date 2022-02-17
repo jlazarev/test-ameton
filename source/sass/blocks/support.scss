@@ -1,0 +1,101 @@
+.support {
+  padding: 40px 40px 0;
+
+  @include viewport--800 {
+    padding: 0;
+  }
+}
+
+.support__wrapper {
+  background-color: $color-blue-light;
+  border-radius: 40px;
+  color: $color-default-white;
+  padding: 0 10px;
+  padding-top: 40px;
+  text-align: center;
+  background-image: url("../../img/bg/bg-aircraft.svg"), url("../../img/bg/bg-phone.svg");
+  background-repeat: no-repeat;
+  background-position: left 0 top 37px, right 0 bottom 0;
+
+  @include viewport--800 {
+    border-radius: 0;
+    padding-bottom: 10px;
+    background-size: 137px, 176px;
+  }
+}
+
+.support__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 72px;
+  margin-bottom: 4px;
+
+  @include viewport--800 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.support__description {
+  text-align: center;
+  margin: 0 auto;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  width: 500px;
+  margin-bottom: 40px;
+
+  @include viewport--800 {
+    width: auto;
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+.support__contacts {
+  padding: 0;
+  margin: 0 auto 46px;
+  list-style: none;
+  display: inline-flex;
+  min-width: 300px;
+  flex-wrap: wrap;
+
+  @include viewport--800 {
+    display: block;
+    min-width: auto;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.support__link {
+  background-color: $color-default-white;
+  margin: 0 4px;
+  min-width: 160px;
+  height: 48px;
+  display: flex;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  @include viewport--800 {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
+  svg {
+    display: inline-block;
+    margin: auto 7px auto auto;
+  }
+
+  span {
+    display: inline-block;
+    margin: auto auto auto 0;
+    height: 18px;
+  }
+}

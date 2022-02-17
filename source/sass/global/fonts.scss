@@ -1,0 +1,21 @@
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Museo Sans Cyrl";
+
+  font-display: swap;
+  src:
+    url("../fonts/Museosanscyrl500.woff2") format("woff2"),
+    url("../fonts/Museosanscyrl500.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Museo Sans Cyrl";
+
+  font-display: swap;
+  src:
+    url("../fonts/Museo-Sans-Cyrl-700-Regular.woff2") format("woff2"),
+    url("../fonts/Museo-Sans-Cyrl-700-Regular.woff") format("woff");
+}

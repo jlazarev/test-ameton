@@ -1,0 +1,7 @@
+.page-main {
+  overflow-x: hidden;
+
+  @include viewport--800 {
+    // margin-top: 48px;
+  }
+}
